@@ -1,0 +1,51 @@
+body{
+background-color: #555555;
+color: #fff000;
+margin: 100px;
+font-family: Arial;
+}
+
+th{
+border-bottom: 1px solid black;
+}
+
+.tableTraining{
+width: 400px;
+height: 400px;
+color: black;
+}
+.even{
+background-color: #fff000;
+}
+.odd{
+background-color: grey;
+}
+img{
+height: 400px;
+width: 600px;
+float: right;
+}
+
+.space{
+margin-top: 150px;
+}
+
+.text{
+float: right;
+}
+
+a:link{
+    color: #fff000;
+}
+a:visited{
+    color: #999000;
+}
+a:focus{
+    color:white;
+}
+a:hover{
+    color:grey;
+}
+a:active{
+    color:#fff00f;
+}

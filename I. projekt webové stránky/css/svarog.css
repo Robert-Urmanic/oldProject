@@ -1,0 +1,74 @@
+@font-face{
+    font-family: apex;
+    src: url(../font/ApexMk2-Regular.otf);
+}
+@font-face{
+    font-family: apexBold;
+    src: url(../font/ApexMk2-BoldExtended.otf);
+}
+
+
+body{
+font-family: apex;
+font-size: 20px;
+background-image: url("../images/svarog.jpg");
+background-repeat: no-repeat;
+background-position: center top;
+color:#fff000;
+}
+.box-outer{   
+border:5px;
+border-style: solid;
+border-radius: 20px;
+background-color: rgba(50,50,50,0.6);
+padding: 20px;
+width: 300px;
+height: 250px;
+float:left;
+margin-top: 100px;
+margin-left: 100px;
+}
+.svarog{
+font-size: 30px;
+font-family: apexBold;
+float:right;
+margin-top: 100px;
+text-align: center;
+margin-right: 8%;
+}
+.spacing{
+letter-spacing: 10px;
+}
+.socialSites{
+width: 70px;
+height: 70px;
+float: right;
+margin-top: 250px;
+}
+
+.socialMargin{
+margin-right: 70px;
+}
+li{
+margin-bottom:24px;
+}
+
+ul{
+list-style-type:square;
+}
+
+a:link{
+    color: #fff000;
+}
+a:visited{
+    color: #999000;
+}
+a:focus{
+    color:white;
+}
+a:hover{
+    color:grey;
+}
+a:active{
+    color:#fff00f;
+}

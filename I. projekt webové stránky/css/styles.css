@@ -1,0 +1,45 @@
+body{
+background-color: #555555;
+color: #fff000;
+margin: 100px;
+font-family: Arial;
+}
+img{
+width: 80%;
+height: 80%;
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top: 50px;
+}
+h1,h2,p{
+margin-top: 50px;
+text-align: center;
+}
+.boxOuter{   
+border:5px;
+border-style: solid;
+border-radius: 20px;
+background-color: rgba(50,50,50,0.6);
+padding: 20px;
+width: 1050px;
+height: 250px;
+margin-right: auto;
+margin-left: auto;
+/*It means that left and right margin will take auto margin according to the width of the element and the width of the container. The browser sets the margin.*/
+}
+a:link{
+    color: #fff000;
+}
+a:visited{
+    color: #999000;
+}
+a:focus{
+    color:white;
+}
+a:hover{
+    color:grey;
+}
+a:active{
+    color:#fff00f;
+}
